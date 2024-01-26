@@ -18,7 +18,7 @@ $(".btn").on("click", function(){
     checkAnswer(userClickedPattern.length-1);
  })
  function playSound(name){
-    var a1 = new Audio("sounds/" + name + ".mp3");
+    var a1 = new Audio(name + ".mp3");
     a1.play();
  }
  function checkAnswer(currentLevel){
